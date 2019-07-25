@@ -9,11 +9,11 @@
 		<version>2.1.6.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.ventura</groupId>
-	<artifactId>ventura</artifactId>
+	<groupId>com.ventura.opportunity</groupId>
+	<artifactId>opportunity-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ventura</name>
-	<description>Ventura project for opportunities in Cisco</description>
+	<name>opportunity-service</name>
+	<description>MicroService for adding, deleting, updating and retrieving opportunities</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -44,6 +44,7 @@
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>2.9.2</version>
 		</dependency>
+
 	</dependencies>
 
 	<build>

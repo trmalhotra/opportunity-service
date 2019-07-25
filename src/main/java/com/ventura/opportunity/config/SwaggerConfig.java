@@ -1,4 +1,4 @@
-package com.ventura.config;
+package com.ventura.opportunity.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,14 +21,14 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)  
           .select()                                  
           .apis(RequestHandlerSelectors
-                  .basePackage("com.ventura.controller"))              
+                  .basePackage("com.ventura.opportunity.controller"))              
           .paths(PathSelectors.regex("/.*"))                          
           .build().apiInfo(apiEndPointsInfo());                                          
     }
     
     private ApiInfo apiEndPointsInfo() {
-        return new ApiInfoBuilder().title("Ventura REST API")
-            .description("Portal for analyzing Demand and Supply in Cisco")
+        return new ApiInfoBuilder().title("Opportunity Micro-service")
+            .description("REST micro-service for Opportunityj Profile module")
             .contact(new Contact("Tarun Malhotra", null, "tarun.malhotra@lntinfotech.com"))
             .version("1.0.0")
             .build();

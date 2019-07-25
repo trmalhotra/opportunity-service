@@ -1,4 +1,4 @@
-package com.ventura.repository;
+package com.ventura.opportunity.repository;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Repository;
 
-import com.ventura.model.Opportunity;
+import com.ventura.opportunity.model.Opportunity;
 
 @Repository
 public class OpportunityRepositoryImpl implements OpportunityRepository {

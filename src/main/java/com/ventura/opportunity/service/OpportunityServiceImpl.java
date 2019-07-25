@@ -1,12 +1,12 @@
-package com.ventura.service;
+package com.ventura.opportunity.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ventura.model.Opportunity;
-import com.ventura.repository.OpportunityRepository;
+import com.ventura.opportunity.model.Opportunity;
+import com.ventura.opportunity.repository.OpportunityRepository;
 
 @Service
 public class OpportunityServiceImpl implements OpportunityService {

@@ -1,4 +1,4 @@
-package com.ventura.exception;
+package com.ventura.opportunity.exception;
 
 public class ResourceNotFoundException extends Exception {
 

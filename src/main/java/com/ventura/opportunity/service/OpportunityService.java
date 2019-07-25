@@ -1,13 +1,13 @@
-package com.ventura.repository;
+package com.ventura.opportunity.service;
 
 import java.util.List;
 
-import com.ventura.model.Opportunity;
+import com.ventura.opportunity.model.Opportunity;
 
-public interface OpportunityRepository {
-	
+public interface OpportunityService {
+
 	public Opportunity addNewOpportunity(Opportunity opportunity);
 	
 	public List<Opportunity> getAllOpportunities();
-
+	
 }
